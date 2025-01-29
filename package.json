@@ -1,0 +1,35 @@
+{
+  "name": "net-test-coin",
+  "description": "Reddio Devnet test coin",
+  "version": "1.0.0",
+  "keywords": [
+    "crypto",
+    "smart-contracts",
+    "openzeppelin",
+    "solidity",
+    "reddio"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reddio-Testers/Net-Test-Coin.git"
+  },
+  "author": {
+    "name": "Reddio Testers",
+    "url": "https://github.com/Reddio-Testers"
+  },
+  "contributors": [
+    {
+      "name": "k1kimosha",
+      "url": "https://github.com/k1kimosha"
+    }
+  ],
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.2.0",
+    "hardhat": "^2.22.18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
