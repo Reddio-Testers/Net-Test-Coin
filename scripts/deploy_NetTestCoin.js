@@ -8,7 +8,7 @@ async function main() {
 
 
     const NetTestCoin = await ethers.getContractFactory("NetTestCoin");
-    const dNetTestCoin = await NetTestCoin.deploy();
+    const dNetTestCoin = await NetTestCoin.deploy(process.env.TOKEN_NAME, process.env.TOKEN_SYMBOL, ethers.parseUnits(process.env.INITIAL_SUPPLY));
 
     await dNetTestCoin.waitForDeployment();
 
